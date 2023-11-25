@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.contacts-section {
+    width: 20%;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.chat {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.chat img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat-info {
+    flex: 1;
+}
+
+.new-chat {
+    width: 20%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #25D366;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.main-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-section img {
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.main-section h2 {
+    margin: 0;
+}
+
+.main-section p {
+    color: #555;
+}
