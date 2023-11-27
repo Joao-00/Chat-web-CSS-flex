@@ -14,7 +14,6 @@ h1 {
 
 .container {
     display: flex;
-    
 }
 
 .contacts-section {
@@ -43,7 +42,6 @@ h1 {
     height: 10vh;
     border: 1px solid #ccc;
     padding: 10px;
-    cursor: pointer;
     flex: 1;
 }
 
@@ -76,9 +74,12 @@ h1 {
     margin-top: px;
 }
 
-.chat-info i {
-    font-size: 30px;
-    padding: 5px;
+.iconos-chat i{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 30px;
     opacity: 0.8;
     text-align: left;
 }
